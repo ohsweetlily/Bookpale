@@ -1,0 +1,53 @@
+.section {
+    height: 80vh;
+    border: solid 1px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.container > div {
+    width: 100%;
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+.container > div:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bookContent {
+    padding: 10px;
+}
+
+.bookContent > * {
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+.desc {
+    height: 80%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+}
+
+.buttons button {
+    margin: 0px 10px;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 200;
+}

@@ -1,0 +1,15 @@
+.tr > div:first-child {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.tr > div:last-child {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 30px;
+}

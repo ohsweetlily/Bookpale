@@ -1,0 +1,19 @@
+.th {
+    background-color: #eff5fb;
+    color: #296fa8;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.th > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tr > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}

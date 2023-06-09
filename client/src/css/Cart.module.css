@@ -1,0 +1,94 @@
+.cartContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 10%;
+    height: 100%;
+}
+
+.cartHeader h1,
+.cartHeader h6 {
+    display: inline;
+}
+
+.cartBody {
+    display: flex;
+    width: 100%;
+}
+
+.cartList {
+    display: inline;
+    width: 60%;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.cartCheck {
+    display: inline;
+}
+
+.cartItems {
+    display: flex;
+    justify-content: space-between;
+    height: min-content;
+}
+
+.SelectCheckbox {
+    width: 5%;
+}
+
+.cartItems img {
+    width: 50px;
+    object-fit: scale-down;
+}
+
+.productContent {
+    width: 20%;
+}
+
+/* 버튼 크기 조절 */
+/* 버튼 한 줄로 */
+.productQuentity {
+    display: inline-block;
+}
+
+.calculation {
+    width: 35%;
+    justify-content: space-between;
+}
+
+.deleteButton {
+    width: 10%;
+    height: 30px;
+}
+
+.cartSummary {
+    width: 40%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.summaryInfo {
+    height: fit-content;
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    justify-content: space-between;
+}
+
+.summaryInfo p {
+    text-align: center;
+    /* p태그에 기본적으로 margin-bottom: 1rem 들어간다고 해서 강제로 넣음 */
+    margin-bottom: 0rem;
+}
+
+.totalInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.totalInfo h4 {
+    text-align: center;
+}
